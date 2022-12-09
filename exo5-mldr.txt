@@ -1,0 +1,10 @@
+# Modèle créé le : Fri Dec 09 12:32:38 CET 2022  
+Auteur (idAuteur, nomAuteur, prenomAuteur)  
+Ouvrage (idOuvrage, titleOuvrage, #idEditeur)  
+MotCle (idMotCle, motCle)  
+Emprunteur (idEmprunteur, nomEmprunteur, adresseEmprunteur, telEmprunteur)  
+Exemplaire (idExemplaire, positionExemplaire, dateAchatExemplaire, #idOuvrage)  
+Editeur (idEditeur, nomEditeur, adresseEditeur)  
+Auteur_Ecrire_Ouvrage (idOuvrage, idAuteur)  
+MotCle_Caracteriser_Ouvrage (idOuvrage, idMotCle)  
+Emprunteur_Emprunter_Exemplaire (idExemplaire, idEmprunteur, dateEmprunt, dateRetourEmprunt)  
